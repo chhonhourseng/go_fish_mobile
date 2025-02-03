@@ -1,0 +1,9 @@
+.fvm/
+.dart_tool/
+.mason/
+build/
+
+mason-lock.json
+/.mason/
+/build/
+/.dart_tool/

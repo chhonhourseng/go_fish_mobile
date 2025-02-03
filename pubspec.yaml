@@ -1,0 +1,99 @@
+name: app
+description: “Agora”
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  intl: ^0.19.0
+  dio: ^5.7.0
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  shimmer: ^3.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  connectivity_plus: ^6.0.4
+  event_bus: ^2.0.0
+  devicelocale: ^0.7.1
+  permission_handler: ^11.3.1
+  collapsible: ^1.0.0
+  flutter_svg: ^2.0.10+1
+  shimmer_animation: ^2.2.1
+  cached_network_image: ^3.4.0
+  scrollable_positioned_list: ^0.3.5
+  flutter_gen: any
+  pinput: ^5.0.0
+  timer_count_down: ^2.2.2
+  flutter_native_splash: ^2.4.1
+  annotations:
+    git:
+      url: https://github.com/MetaElevenPhnomPenh/annotations_flutter_plugin.git
+  wechat_assets_picker: ^9.2.0
+  apple_product_name: ^3.1.0
+  device_info_plus: ^10.1.2
+  flutter_udid: ^3.0.0
+  image_picker: ^1.1.2
+  flutter_staggered_grid_view: ^0.7.0
+  random_avatar: ^0.0.8
+  uuid: ^4.4.2
+  get_it: ^7.7.0
+  injectable: ^2.4.4
+  package_info_plus: ^8.0.2
+  socket_io_client: ^2.0.3+1
+  chalk: ^1.2.1
+  flexible_scrollbar: ^0.1.3
+  intl_phone_field: ^3.2.0
+  dotted_border: ^2.1.0
+  numeral: ^2.0.1
+
+dev_dependencies:
+  bloc_test: ^9.1.7
+  build_runner: 2.4.11
+  hive_generator: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+  generators:
+    git:
+      url: https://github.com/MetaElevenPhnomPenh/generators_flutter_plugin.git
+      ref: v.1.0.1
+  injectable_generator: ^2.6.2
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/RobotoCondensed-Thin-w100.ttf
+          weight: 100
+        - asset: assets/fonts/roboto/RobotoCondensed-ExtraLight-w200.ttf
+          weight: 200
+        - asset: assets/fonts/roboto/RobotoCondensed-Light-w300.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/RobotoCondensed-Regular-w400.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/RobotoCondensed-Medium-w500.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/RobotoCondensed-SemiBold-w600.ttf
+          weight: 600
+        - asset: assets/fonts/roboto/RobotoCondensed-Bold-w700.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/RobotoCondensed-ExtraBold-w800.ttf
+          weight: 800
+        - asset: assets/fonts/roboto/RobotoCondensed-Black-w900.ttf
+          weight: 900
